@@ -1,7 +1,7 @@
 #!/bin/sh
-cd /home/minecraft
-mkdir tempdl
-cd tempdl
+cd /home/minecraft #Switch to the directory /home/minecraft
+mkdir tempdl #Make a folder where the jars should be downloaded to
+cd tempdl #Switch to the folder we just made
  
 wget http://ci.md-5.net/job/Spigot/lastSuccessfulBuild/artifact/Spigot-Server/target/spigot.jar #Download the latest version of Spigot
 wget http://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar #Download the latest version of BungeeCord
